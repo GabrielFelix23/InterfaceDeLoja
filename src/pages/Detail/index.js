@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Image, ScrollView, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, Image, ScrollView, StyleSheet } from 'react-native';
 
 import Dot from '../../component/Dot/index'
 import SizeButton from '../../component/SizeButton/index'
