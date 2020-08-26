@@ -42,6 +42,21 @@ export default function Detail({navigation}) {
             <SizeButton>42</SizeButton>
           </ScrollView>
         </View>
+
+        <View style={styles.textContent}>
+          <Text style={styles.textTitle}>
+              Nike Downshifter 10
+          </Text>
+          <Text style={styles.textContent}>
+            O Nike Downshifter 10 traz suporte e amortecimento atualizados. Seu design leve e acolchoado ajuda a manter você se movimentando enquanto corre. Uma estrutura totalmente nova no mediopé proporciona o suporte que você precisa para a sua corrida.
+          </Text>
+          <Text style={styles.textList}>
+            - Categoria: Amortecimento
+          </Text>
+          <Text style={styles.textList}>
+            - Material: Mesh
+          </Text>
+        </View>
     </ScrollView>
   )
 }
@@ -62,5 +77,19 @@ const styles = StyleSheet.create({
   dotContainer:{
     flexDirection: 'row',
     marginVertical: '7%'
+  },
+  textContent:{
+    fontSize: 16,
+    lineHeight: 25,
+    marginVertical: '2%',
+    paddingHorizontal: '2%'
+  },
+  textTitle:{
+    fontSize: 22,
+    marginVertical: '2%'
+  },
+  textList:{
+    fontSize: 16,
+    lineHeight: 25
   }
 })
