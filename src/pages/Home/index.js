@@ -46,19 +46,19 @@ export default function Home() {
 
             <View style={{flexDirection: "row", justifyContent: 'space-around'}}>
                 <Shoes img={require('../../assets/3.png')} cost="R$560,90">
-                    Nike Air Max Dia
+                    Nike Squidward Tentacles
                 </Shoes>
                 <Shoes img={require('../../assets/4.png')} cost="R$220,90">
-                    Nike Downshifter 10
+                    Nike epic React Flyknit 2
                 </Shoes>
             </View>
 
             <View style={{flexDirection: "row", justifyContent: 'space-around'}}>
                 <Shoes img={require('../../assets/5.png')} cost="R$120,90">
-                    Nike Air Max Dia
+                    Nike Joyride Run Flyknit
                 </Shoes>
                 <Shoes img={require('../../assets/6.png')} cost="R$920,90">
-                    Nike Downshifter 10
+                    Nike Air Max
                 </Shoes>
             </View>
 

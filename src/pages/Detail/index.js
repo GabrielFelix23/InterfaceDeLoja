@@ -3,6 +3,8 @@ import { View, Text, Image, ScrollView, TouchableOpacity, StyleSheet } from 'rea
 
 import Dot from '../../component/Dot/index'
 import SizeButton from '../../component/SizeButton/index'
+import Button from '../../component/Button/index'
+import Footer from '../../component/Footer/index'
 
 export default function Detail({navigation}) {
 
@@ -57,6 +59,12 @@ export default function Detail({navigation}) {
             - Material: Mesh
           </Text>
         </View>
+
+        <Button/>
+
+        <View style={styles.line}/>
+
+        <Footer/>
     </ScrollView>
   )
 }
@@ -91,5 +99,10 @@ const styles = StyleSheet.create({
   textList:{
     fontSize: 16,
     lineHeight: 25
+  },
+  line:{
+    borderWidth: 1,
+    borderBottomColor: "#ddd",
+    marginVertical: "2%"
   }
 })
